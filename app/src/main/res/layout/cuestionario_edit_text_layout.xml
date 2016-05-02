@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txv_oracion_parte_uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_below="@id/txv_oracion_parte_uno"
+        android:id="@+id/edt_respuesta"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:maxLength="14"
+        />
+    <TextView
+        android:id="@+id/txv_oracion_parte_dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/edt_respuesta"
+        />
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/txv_oracion_parte_uno"
+        android:id="@+id/btn_comprobar_escrito"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mi_boton"
+        android:text="@string/cuestionario_comprobar"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_menu_principal">
+        <item>Capítulo 1:Bienvenido a Gnu Linux</item>
+        <item>Capítulo 2:Gestión de archivos</item>
+        <item>Capítulo 3: Manejo de archivos</item>
+        <item>Capítulo 4: Guía de comandos</item>
+        <item>Examen final</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo1">
+        <item>Sistema Operativo </item>
+        <item>Entorno Gráfico</item>
+        <item>Pruebas de sistema</item>
+        <item>Aplicaciones de serie</item>
+        <item>El sistema de archivos</item>
+        <item>Copiando archivos</item>
+        <item>Borrar archivos</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo2">
+        <item>Las carpetas de trabajo</item>
+        <item>Manipulación de archivos</item>
+        <item>Ordenar mis archivos</item>
+        <item>Conexión de dispositivos</item>
+        <item>Creación de directorios</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo3">
+        <item>Permisos de acceso</item>
+        <item>Dueños</item>
+        <item>Enlaces</item>
+        <item>Variables de entorno</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo4">
+        <item>Comandos para el manejo de archivos</item>
+        <item>Comandos para el manejo de procesos</item>
+        <item>Comandos para el manejo de usuarios</item>
+        <item>Otros comandos</item>
+        <item>Creación de un nuevo usuario</item>
+        <item>Eliminación de un usuario</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_examen_final">
+        <item>Deve mandar al el examen final</item>
+    </string-array>
+
+    <string-array name="spinner_audio">
+        <item>Con audio.</item>
+        <item>Sin audio.</item>
+        <item>Con audio y vibración.</item>
+    </string-array>
+
+
+</resources>

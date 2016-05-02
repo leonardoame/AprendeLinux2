@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/mi_scroll"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5pt"
+    android:paddingRight="5pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    android:layout_margin="5pt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txv_titulo_desarrollador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_titulo_desarrollador"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:textColor="@color/negro"
+            />
+        <TextView
+            android:id="@+id/txv_nombre_desarrollador"
+            android:layout_marginTop="15pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nom_des"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_titulo_desarrollador"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_nombre_desarrollador_info"
+            android:layout_marginTop="15pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nom_des_rep"
+            android:textSize="10pt"
+            android:layout_below="@id/txv_titulo_desarrollador"
+            android:layout_toRightOf="@id/txv_nombre_desarrollador"/>
+
+        <TextView
+            android:id="@+id/txv_correo_desarrollador"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_corr_des"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_nombre_desarrollador_info"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_correo_desarrollador_info"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_corr_des_rep"
+            android:textSize="10pt"
+            android:layout_below="@id/txv_nombre_desarrollador_info"
+            android:layout_toRightOf="@id/txv_correo_desarrollador"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt">
+        <TextView
+            android:id="@+id/txv_titulo_asignatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_titulo_asignatura"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:textColor="@color/negro"
+            />
+        <TextView
+            android:id="@+id/txv_nombre_asignatura"
+            android:layout_marginTop="15pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nom_asig"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_titulo_asignatura"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_nombre_asignatura_info"
+            android:layout_marginTop="15pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nom_asig_res"
+            android:textSize="10pt"
+            android:layout_below="@id/txv_titulo_asignatura"
+            android:layout_toRightOf="@id/txv_nombre_asignatura"/>
+
+        <TextView
+            android:id="@+id/txv_profesor_asignatura"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_prof_asig"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_nombre_asignatura_info"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_profesor_asignatura_info"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_prof_asig_res"
+            android:textSize="10pt"
+            android:layout_below="@id/txv_nombre_asignatura_info"
+            android:layout_toRightOf="@id/txv_profesor_asignatura"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt">
+        <TextView
+            android:id="@+id/txv_titulo_universidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_titulo_universidad"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:textColor="@color/negro"
+            />
+        <TextView
+            android:id="@+id/txv_nombre_universidad"
+            android:layout_marginTop="15pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nombre_uni"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_titulo_universidad"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_nombre_universidad_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_nombre_uni_res"
+            android:textSize="10pt"
+            android:layout_alignTop="@+id/txv_nombre_universidad"
+            android:layout_toEndOf="@+id/txv_nombre_universidad" />
+
+        <TextView
+            android:id="@+id/txv_ubicacion_universidad"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_ubicacion_uni"
+            android:textSize="10pt"
+            android:textColor="@color/negro"
+            android:layout_below="@id/txv_nombre_universidad_info"/>
+        <TextView
+            android:paddingLeft="15pt"
+            android:id="@+id/txv_ubicacion_universidad_info"
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de_ubicacion_uni_res"
+            android:textSize="10pt"
+            android:layout_below="@id/txv_nombre_universidad_info"
+            android:layout_toRightOf="@id/txv_ubicacion_universidad"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

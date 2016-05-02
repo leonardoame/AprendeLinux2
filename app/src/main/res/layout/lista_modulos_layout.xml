@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="20pt"
+    tools:context=".SeleccionModuloActivity"
+    android:background="@color/trans"
+    android:id="@+id/liner_del_boton"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modules"
+        android:textColor="@color/rojo"
+        android:textSize="15pt"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/lsv_menu_principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/mi_scroll"
+        android:layout_gravity="center"
+        android:textColor="@color/negro"
+        android:textAlignment="center"
+        ></ListView>
+
+</LinearLayout>

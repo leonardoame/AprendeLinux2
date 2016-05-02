@@ -1,0 +1,898 @@
+<resources>
+    <string name="app_name">Linux</string>
+    <string name="title_ruby">Linux</string>
+    <string name="form_btn_mas_tarde">Mas Tarde</string>
+    <string name="form_btn_ingresar">Ingresar</string>
+    <string name="form_btn_crear_cuenta">Crear Cuenta</string>
+
+    <string name="login_valido">Leonardo</string>
+    <string name="clave_valida">1234</string>
+    <string name="error_autenticar">usuario o password incorrectos</string>
+    <string name="datos_guardados_correctamente">"Los datos se guardaron con exito "</string>
+    <string name="btn_create_guardar">Guardar</string>
+    <string name="btn_create_cancelar">Cancelar</string>
+    <string name="title_login">Login</string>
+
+    <string name="title_create_login_registro">Registro</string>
+    <string name="usuario_create_login_registro">Usuario</string>
+    <string name="pass_create_login_registro">Contraseña</string>
+    <string name="correo_create_login_registro">Correo</string>
+    <string name="modules">Módulos</string>
+
+    <string name="tab_informacon">Información</string>
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_examen">Examen</string>
+
+    <string name="escoge_medio_preferencia">Escoge el medio de preferencia :</string>
+    <string name="mensaje_bien_venido">Bien venido :</string>
+    <string name="mensaje_ocultar">Ocultar</string>
+    <string name="mensaje_ocultar_toast">Ocultado</string>
+    <string name="tiulo_progreso_menu_bar">Progreso</string>
+
+    <string name="ayuda_sugerencia_ayuda">Ayuda</string>
+    <string name="ayuda_sugerencia_recomendaciones">Recomendaciónes</string>
+    <string name="ayuda_sugerencia_recomendaciones_resp">
+        -Para un mejor uso de esta app se suguiere estar conectado a una red wifi.\n
+        -No conectarse por medio de datos ya que los cargos generados pueden ser grandes.</string>
+    <string name="ayuda_sugerencia_sugerencias">Sugerencias</string>
+    <string name="ayuda_sugerencia_sugerencias_para">Para :</string>
+    <string name="ayuda_sugerencia_sugerencias_correo">leomujicapalomares@gmail.com</string>
+    <string name="ayuda_sugerencia_sugerencias_tema">Tema :</string>
+    <string name="ayuda_sugerencia_sugerencias_mensage">Mensaje :</string>
+    <string name="ayuda_sugerencia_sugerencias_enviar">Enviar</string>
+
+    <string name="acerca_de_titulo_desarrollador">Desarrollador</string>
+    <string name="acerca_de_nom_des">Nombre:</string>
+    <string name="acerca_de_nom_des_rep">Leonardo Mujica Palomares</string>
+    <string name="acerca_de_corr_des">Correo:</string>
+    <string name="acerca_de_corr_des_rep">leomujicapalomares@gmail.com</string>
+    <string name="acerca_de_titulo_asignatura">Asignatura</string>
+    <string name="acerca_de_nom_asig">Nombre:</string>
+    <string name="acerca_de_nom_asig_res">Desarrollo de aplicaciónes III.</string>
+    <string name="acerca_de_prof_asig">Profesor:</string>
+    <string name="acerca_de_prof_asig_res">Rodriguez Garcia Anastacio.</string>
+    <string name="acerca_de_titulo_universidad">Universidad</string>
+    <string name="acerca_de_nombre_uni">Nombre:</string>
+    <string name="acerca_de_nombre_uni_res">Universidad Tecnológica del Norte de Guanajuato.</string>
+    <string name="acerca_de_ubicacion_uni">Ubicación:</string>
+    <string name="acerca_de_ubicacion_uni_res">Dolores Hidalgo, Cuna de la independencia nacional.</string>
+
+    <string name="titulo_calificacion">Calificación</string>
+    <string name="calificacion_enviar">Enviar</string>
+    <string name="calificacion_resultado">Resultado :</string>
+
+    <string name="title_herramientas">Herramientas</string>
+    <string name="btn_calculadora">Herramientas</string>
+
+
+    <string name="titulo_configuracion">Configuraciónes</string>
+    <string name="configuracion_titulo_notificaciones">Notificaciónes</string>
+    <string name="configuracion_activar_notificaciones">Activar</string>
+    <string name="configuracion_desactivar_notificaciones">Desactivar</string>
+    <string name="configuracion_titulo_audio">Audio</string>
+    <string name="configuracion_titulo_almacenamiento">Almacenamiento</string>
+    <string name="configuracion_interno_almacenamiento">Interno</string>
+    <string name="configuracion_externo_almacenamiento">Externo</string>
+    <string name="nota_tipo_almacenamiento">Nota: El almacenamiento solo se puede eleguir al momento de crear la cuenta</string>
+
+    <string name="usuario_informacion_titulo">Información</string>
+    <string name="usuario_informacion_nombre">Nomre: </string>
+    <string name="usuario_informacion_nombre_res">Leonardo Mujica Palomares</string>
+    <string name="usuario_informacion_correo">Correo: </string>
+    <string name="usuario_informacion_correo_res">leomujicapalomares@gmail.com</string>
+    <string name="usuario_informacion_puntos">Puntos: </string>
+    <string name="btn_cronometro">Cronometro</string>
+    <string name="btn_Calculadora">Calculadora</string>
+    <string name="edt_herramienta">Herramientas</string>
+    <string name="usuario_informacion_puntos_res">123 pt</string>
+    <string name="menu_bar_progreso_on">Progreso</string>
+    <string name="menu_bar_usuario_on">Información del usuario</string>
+    <string name="menu_bar_grafica_on">Gráfica de aprovechamiento</string>
+    <string name="menu_bar_configuracion_on">Configuraciónes</string>
+    <string name="menu_bar_calificar_app_on">Calificar app</string>
+    <string name="menu_bar_acerca_de_on">Acerca de</string>
+    <string name="menu_bar_heramientas">Herramientas</string>
+    <string name="menu_bar_ayuda_sugerencia_on">Ayuda y sugerencias</string>
+    <string name="menu_bar_salir_on">Salir</string>
+    <string name="menu_bar_juego">UTNG</string>
+    <string name="menu_bar_video">VIDEO</string>
+    <string name="menu_bar_acerca_de_off">Acerca de</string>
+    <string name="menu_bar_ayuda_sugerencia_off">Ayuda y sugerencias</string>
+    <string name="menu_bar_cambiar_tema">Cambiar tema</string>
+    <string name="menu_bar_juegos_dinamicos">Juegos Dinamcos</string>
+    <string name="menu_bar_juegos_noticias">Noticias</string>
+    <string name="menu_bar_salir_off">Salir</string>
+    <string name="confirm_pass_create_login_registro">Confirma la contraseña</string>
+
+    <string name="title_menssage_error_uno">Atención!!</string>
+    <string name="title_menssage_error_dos">Atención, campos requeridos!!</string>
+    <string name="button_menssage_error">Aceptar</string>
+    <string name="menssage_error_pass_different">Las contraseñas no coinsiden</string>
+
+    <string name="cuestionario_comprobar">Comprobar</string>
+
+    <string name="calificaciones_examenes">Calificaciónes de los examenes</string>
+    <string name="title_activity_ultimas_noticias">Últimas Noticias</string>
+    <string name="title_activity_noticia">Noticia</string>
+    <string name="titulo">Títutlo</string>
+    <string name="descripcion">Descripción</string>
+
+    <string name="html_tema_concluido_off">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                  <font color="#000000">
+                     has concluido con exito el tema 1 :<i> Sobre Ruby</i>. Para poder continuar con el curso te recomendamos que te registres.
+                  </font>
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+     <string name="html_curso_concluido_parte_uno">
+        <![CDATA[
+                     Has concluido con exito el curso de <i>Linux</i> <b>
+        ]]>
+    </string>
+    <string name="html_curso_concluido_parte_dos">
+        <![CDATA[
+                     </b>. Para poder guardar tu calificación te recomendamos dar clic en el boton de ENVIAR.<br />
+        ]]>
+    </string>
+
+    <string name="html_uno_sobre_ruby">
+      <![CDATA[
+            <div>
+              <div>
+                 <p>Instalar el sistema operativo es bastante sencillo ya que este cuenta con un asistente gráfico para
+hacerlo. Simplemente defines la información necesaria y sigues el proceso de instalación de acuerdo a
+cada pantalla que presenta el asistente.
+                 </p>
+                 <p>
+                 <b>Nota</b>: Para instalar tu Sistema Operativo debes hacer lo siguiente:.
+                  </p>
+<p>1. Descargar la distribución Ubuntu Linux desde http://www.ubuntu.com/download/desktop </p>
+<p>2. Es recomendable descargar Ubuntu 12.04 LTS (tiene soporte para 5 años). </p>
+<p>3. Preparar la imagen del Sistema Operativo Ubuntu Linux en un DVD o USB. </p>
+<p>4. Iniciar el ordenador con el DVD o USB y cargar el Sistema Operativo en modo vivo. </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_medio_ambiente_configuracion">
+       <![CDATA[
+            <div>
+              <div>
+                 <p>Luego de instalar el Sistema Operativo e iniciar una sesión con el entorno de trabajo Unity, este
+presentará un aspecto de interfaz gráfica
+                 </p>
+                 <p>
+                 <b>Nota</b>: En general, el escritorio de trabajo esta compuesto por:
+
+                  </p>
+<p>1. El botón de Inicio</p>
+<p>2. El Tablero del sistema </p>
+<p>3. El Lanzador de aplicaciones.</p>
+<p>4. La barra superior de opciones </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_sintaxis">
+         <![CDATA[
+            <div>
+              <div>
+               <p>Haz terminado de instalar el nuevo sistema operativo, ya hiciste un pequeño recorrido
+por la interfaz gráfica pero quieres descubrir otras características de esta distribución
+Gnu Linux.</p>
+ <p>Prueba lo siguiente:</p>
+ <p>1. Presiona la tecla Meta (windows) para abrir el Tablero rápidamente.</p>
+ <p>También puedes presionar la tecla Meta por al menos tres segundos para habilitar
+el Lanzador con los íconos enumerados.</p>
+ <p>Además, puedes utilizar las siguientes combinaciones de teclas que te ayudarán
+para interactuar mejor con el sistema operativo.</p>
+ <p>Tecla Meta y la S para activar las áreas de trabajo</p>
+ <p> Ahora abre la carpeta personal, el procesador de textos, la aplicación de hojas de cálculo
+y luego presionar: la tecla Meta y la W para activar el modo expo de las ventanas.</p>
+ <p>Además, puedes presionar simultáneamente Alt Tab para navegar entre las miniaturas
+de las aplicaciones abiertas y seleccionar la que necesites.</p>
+
+
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_palabras_reservadas">
+       <![CDATA[
+            <div>
+              <div>
+              <p> Al terminar de instalar el Sistema Operativo, también se instalan muchas aplicaciones de serie que los
+desarrolladores han considerado como básicas para el uso diario. A continuación se mencionan algunas
+de las principales aplicaciones que se tienen disponibles.</p>
+<p>
+Como accesorios se tienen: Calculadora, Editor de texto, Gestor de archivadores, Brasero (quemador de
+discos), Dejá Dup (respaldos), Terminal y otras. Para utilizar dichas aplicaciones bastará con presionar
+el botón Inicio, digitar el nombre de la aplicación y hacer clic sobre el icono.</p>
+<p>Gestor de archivadores: para trabajar con los archivos que tienen compresión.</p>
+<p>Brasero: sirve para crear cd-dvd con archivos multimedia o con datos informáticos.</p>
+<p>Déja Dup: para realizar copias de respaldo.</p>
+<p>Terminal: permite trabajar en modo de consola, es bastante útil para usuarios intermedios y avanzados.</p>
+<p>Para ver los juegos instalados, puedes hacerlo desde el Tablero, filtrando la búsqueda por la categoría
+Juegos.
+</p>
+<p>De esta manera, utilizando los filtros por categoría que se encuentran al lado derecho del Tablero,
+puedes identificar las aplicaciones instaladas en el sistema.</p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_variables">
+        <![CDATA[
+            <div>
+              <div>
+                <p>Existen muchas definiciones acerca de lo que es un sistema de archivos; nosotros, para
+simplificar, diremos que se trata de la forma en que el sistema operativo estructura
+los datos en la unidad de alrViacenamiento.
+</P>
+<p>En GNU/Linux, los datos se ordenan en archivos y directorios (como en tantos otros sistemas
+operativos). La diferencia especial radica en que (generalmente) los programas no
+son almacenados cada uno en su propio directorio, sino que sus diferentes componentes están dispersos por todo el sistema de archivos. Así, contamos con un directorio específico
+para todos los ejecutables, otro para la documentación, otro para las librerías, etc. La
+siguiente tabla les ayudará a reconocer la inmensa cantidad de directorios que componen
+el árbol de GNU/Linux.</P>
+                <p><b>/</b>Directorio raíz, desde aquí cuelgan todos los demás directorios del sistema</P>
+                  <p><b>/bin</b>En este directorio se almacenan archivos binarios ejecutables.
+Generalmente, encontraremos los archivos correspondientes a los
+comandos básicos del sistema.</P>
+                     <p><b>/boot</b>En este directorio se almacena el núcleo Linux, así como
+los archivos de configuración necesarios para su uso.</P>
+                        <p><b>/dev</b>Éste es un directorio muy especial. Los archivos que están aquí dentro
+representan los diferentes dispositivos del sistema.
+Más adelante trataremos este tema en detalle.</P>
+                           <p><b>/etc</b>Aquí se almacenan todos los archivos de configuración de GNU/Linux y de
+los demás programas de usuario.</P>
+                              <p><b>/home</b>Este directorio contiene los subdirectorios personales de los usuarios
+del sistema. Cada usuario posee su propio directorio, en^l que puede
+almacenar archivos personales, tales como documentos, programas
+y archivos de configuración.</P>
+                                 <p><b>/lib</b>En este directorio se almacenan las librerías de programación básicas
+de GNU/Linux.</P>
+                                  <p><b>/mnt</b>Este directorio contiene subdirectorios que actúan como puntos de
+montaje. Desde aquí podemos acceder al contenido de otras particiones
+o unidades.</P>
+                                   <p><b>/root</b>Éste es el directorio personal del usuario root.</P>
+                                    <p><b>/sbin</b>Aquí se encuentran los archivos binarios ejecutables correspondientes a los
+comandos de administración del sistema.</P>
+                                     <p><b>/proc</b>Este directorio almacena archivos que contienen información sobre el
+sistema (CPU, memoria, dispositivos PCI, Plugin Play, etc.).</P>
+                                    <p><b>/usr</b>En este directorio encontraremos todo lo demás: archivos de
+documentación, programas, más librerías, código fuente, etc.</P>
+                                     <p><b>/var</b>En este directorio se almacenan varias cosas, como la cola de impresión,
+los archivos de registración (log), etc. Será interesante dar un vistazo
+a este directorio.</P>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_operadores">
+        <![CDATA[
+            <div>
+              <div>
+                <p>Una de las funciones más típicas es la de copiar archivos. ¿Quién no necesita alguna
+vez copiar un archivo de un directorio a otro? Bueno, desde la línea de comandos, tenemos
+un comando que nos permite realizar esta función. El comando se llama cp (a
+diferencia de otros sistemas como MSDOS, en donde se llama copy) y tiene la siguiente
+estructura básica:</P>
+                 <p>cp [opciones] [archivo] [destino]</P>
+                  <p>Los parámetros [archivo] y [destino] pueden contener rutas completas a directorios.
+El parámetro [opciones] puede ser obviado, aunque más adelante veremos algunas
+opciones importantes.
+Ahora veamos cómo usar este comando de forma básica. El siguiente es un ejemplo
+válido:</P>
+                   <p>cp /etc/lilo.conf /tmp</P>
+                    <p>El comando del ejemplo anterior se encargará de copiar el archivo lilo.conf (ubicado
+en el directorio /etc) al directorio /tmp.
+Los experimentados en MSDOS se estarán preguntando si pueden usar comodines
+(wildcards). ¡Claro que sí! Y éstos funcionan exactamente igual que en todos los demás
+sistemas operativos. Veamos los siguientes ejemplos:</P>
+                     <p>cp *.png /gráficos
+</P>
+                     <p>cp archivo*.* /documentos</P>
+                     <p>El primer ejemplo se encargará de copiar todos los archivos que posean la extensión .png
+en el directorio gráfico. El segundo ejemplo copiará todos los archivos que comiencen con
+la palabra "archivo" y finalicen con cualquier extensión, en el directorio documentos.
+Como mencionamos anteriormente, el comando cp permite utilizar algunas opciones
+para personalizar aún más su funcionamiento. Veamos las más importantes:</P>
+                     <p><b>-a</b>Preserva todos los atributos de archivo.</P>
+                     <p><b>-b</b>Realiza una copia de seguridad antes de copiar.</P>
+                      <p><b>-i</b>Pide confirmación antes de sobrescribir archivos.</P>
+                       <p><b>-R</b>Copia los archivos recursivamente en todos los subdirectorios.</P>
+                        <p><b>-u</b>Copia un archivo sólo cuando éste es más nuevo que el que se encuentra
+actualmente en el destino.</P>
+                         <p><b>-v</b>Muestra información detallada mientras se realiza la operación.</P>
+                          <p><b>-help</b>Muestra información sobre su utilización en pantalla.</P>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_comentarios">
+        <![CDATA[
+            <div>
+              <div>
+               <p>Otra de las acciones que serán necesarias en más de una ocasión es la de borrado de
+archivos. En GNU/Linux existe un comando que nos permite realizar esta tarea rápidamente.
+Su forma es la siguiente:</P>
+               <p>rm [opciones] {archivo]</P>
+               <p>El comando rm se limita a eliminar del sistema el archivo definido como parámetro.
+De esta forma, para eliminar el archivo que copiamos en el ejemplo anterior, sólo tenemos
+que ejecutar el siguiente comando:</P>
+               <p>rm/tmp/lilo.conf</P>
+
+               <p><b>-f</b>Elimina archivos sin pedir confirmación.</P>
+                <p><b>-i</b>Pide confirmación antes de eliminar un archivo.</P>
+                 <p><b>-r</b>Elimina recursivamente todos los archivos en todos los subdirectorios.
+También borra los directorios.</P>
+                  <p><b>-v</b>Muestra en pantalla el nombre de cada archivo que va siendo eliminado.</P>
+<p>Ahora bien, hemos visto cómo eliminar archivos, pero no, cómo eliminar directorios.
+En definitiva, no es muy diferente: para borrar un directorio simplemente tienen que
+usar el comando rmdir del siguiente modo:<p>
+<p>rmdir [directorio]<p>
+<p>El sistema se encargará automáticamente de eliminar el directorio definido como parámetro.
+Recuerden que para eliminar un directorio, siempre es necesario que éste se
+encuentre totalmente vacío (sin archivos).<p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_ciclos">
+        <![CDATA[
+            <div>
+              <div>
+                <p>La gestión de archivos y carpetas es muy fácil en el Sistema Operativo, basta con hacer un par de clics
+o seleccionar opciones del menú para cortar, pegar, copiar archivos y crear carpetas. También es muy
+cómodo trabajar con un doble panel que nos ofrece el gestor de archivos.
+</p>
+<p>Automáticamente el sistema crea las siguientes carpetas para la cuenta del usuario: Descargas,
+Documentos, Escritorio, Imágenes, Música, Plantillas, Público, Ubuntu One, Vídeos y Ejemplo. Estas
+carpetas tienen nombres significativos lo que permite clasificar y guardar documentos específicos en
+cada una de ellas con el fin de facilitar la gestión y búsqueda de los mismos.</p>
+<p> La ventana del gestor de archivos presenta en la parte superior
+ izquierda la sección de Dispositivos. Aquí se muestran todos los
+ accesos para los dispositivos que se conecten al equipo entre
+ estos: memorias usb (pendrive), discos duros, móviles, etc.</p>
+ <p> Siempre al lado izquierdo de la ventana, el gestor de
+ archivos muestra la sección Equipo en la cual detalla las
+ carpetas creadas automáticamente para el usuario. Las distintas
+ carpetas facilitan el almacenamiento de archivos y la navegación
+ de los mismos.</p>
+<p>Sistema de archivos es la sección del disco duro que contiene la
+ instalación del sistema operativo. Ahí se pueden encontrar las
+ carpetas del sistema y los archivos principales.</p>
+ <p>La sección de Red permite examinar la red a la que esta conectado el
+ordenador o las disponibles para conectarlo. Por medio de esta, nuestro
+equipo se puede comunicar con otros equipos e intercambiar información.</p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_metodos">
+        <![CDATA[
+            <div>
+              <div>
+             <p>Generalmente, luego de manipular varios archivos y sobre todo aquellos formatos privativos de
+multimedia o compresión en más de una ocasión, habrás notado que en las primeras intenciones no te
+ha sido posible su ejecución o descompresión</p>
+<p>¿Porqué ha pasado esto? No puedes ver algunos vídeos, escuchar cierto tipo de audio o descomprimir
+alguno formato...
+Son ciertos formatos (privativos) que se han posicionado tanto en el mercado y que se han vuelto
+populares porque la mayoría de usuarios los utiliza. Lo anterior, no significa que sean los mejores.
+</p>
+<p>tú puedes usar y transformar esos archivos a formatos libres o simplemente
+instalar aplicaciones para obtener esos formatos que enviarás a sus amigos por que a ellos les son
+cómodos o familiares.</p>
+<p>
+La no reproducción de estos archivos, en primeras instancias es por que riñen con el espíritu del
+software libre y por que existen alternativas incluso superiores a ellos para utilizar. Pero, no por ello
+esto significa que tú estarás marginado de trabajarlos o ni los tengas que usar. Recuerda que tú eres
+libre y los podrás utilizar, pero ahora eres consciente que un sistema Gnu Linux no tiene la culpa de
+ello o que sea incapaz de correr determinados archivos, simplemente se debe al tipo de licencias.</p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+
+    <string name="html_dos_modulos">
+        <![CDATA[
+            <div>
+              <div>
+             <p>Los sistemas Gnu Linux fueron de los primeros en dar soporte a dispositivos USB, día a día se trabaja
+por que en tu sistema funcione una amplia gama de dispositivos.
+</p>
+<p>En el panel izquierdo de la ventana del gestor de archivos, encontrarás la categoría Dispositivos en la
+cual se muestran los conectados a tu equipo. Desde memorias usb (prendrive), discos duros internos y
+externos, disquete, etc.
+</p>En el Lanzador, principalmente se presentan las memorias usb (pendrive) para su fácil acceso y retiro.
+Se recomienda que los dispositivos que se conecten al equipo, sean retirados lógicamente con la opción
+Quitar de forma segura y luego desconectarlos físicamente.
+<p>
+La mayoría de dispositivos como: impresoras, ratones, teclados, micrófonos, bocinas, routers,
+escanners, etc. Funcionan correctamente, puedes quedar impresionado al conectar por primera vez una
+impresora y ver que el sistema la reconoce sin necesidad de usar el cd de controladores que es
+necesario para otros sistemas operativos.
+
+</p>
+<p>Con los dispositivos también sucede un caso semejante al de los formatos privativos, a veces será
+necesario hacer ciertos ajustes especiales. Esto no es por que el Sistema Operativo tenga problemas,
+más bien se debe a que los fabricantes irresponsablemente o por acuerdos pactados no dan soporte para
+los sistemas Gnu Linux. No te preocupes, la comunidad del software libre es multitud de pensamiento y
+siempre hay una solución. Si tú necesitas ayuda, simplemente debes identificar bien tu problema y
+saber buscar en Internet .</p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+    <string name="html_dos_bloques">
+        <![CDATA[
+            <div>
+              <div>
+             <p>
+Hasta el momento te has enterado de todas las prestaciones y ventajas que ofrecen los Sistemas
+Operativos Gnu Linux con su gestor de archivos. Como usuario tienes diferente información ya sea en
+un disco duro, cds, dvds, memoria usb (pendrive) vamos a ver como almacenarlos en tu ordenador.
+</p>
+
+<p>
+1. Es necesario que uses el gestor de archivos para llevar a cabo dicha tarea.
+</p>
+<p>
+2. En la medida de lo posible, debes aplicar las configuraciones que más te convengan para
+trabajar cómodamente (doble panel F3, vistas de íconos Ctrl 1 Ctrl 2 ó Ctrl 3, Editar -
+Preferencias).
+</p>
+<p>
+3. Debes conectar los dispositivos (disco duro, memoria usb) adecuadamente.
+</p>
+<p>
+5. No debes olvidar que necesitas retirar de forma correcta, los dispositivos conectados a tu
+ordenador.
+</p>
+<p>
+6. Puedes usar Shotwel sí la aplicación instalada de serie para administrar su colección de
+fotografías.
+</p>
+<p>Puede ser que esta tarea de administrar archivos te lleve una buena inversión de tiempo, pero recuerda
+que al final tendrás toda tu documentación organizada y fácilmente disponible.
+</p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_dos_mix">
+        <![CDATA[
+            <div>
+              <div>
+<div>
+<p>Crear directorios bajo GNU/Linux desde la línea de comandos es un proceso realmente
+sencillo. Para esto, el sistema nos provee de una herramienta llamada mkdir. Su forma
+es la siguiente:</p>
+<p>
+mkdir [directorio]</p>
+<p>
+De esta manera, el comando mkdir temporal creará un directorio llamado temporal, al
+cual podremos acceder con el comando cd</p>
+		  </div>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+
+    <string name="html_tres_strings">
+        <![CDATA[
+            <div>
+              <div>
+<p>Suficiente teoría. Vayamos a la práctica (muchos lectores se estarán preguntando ya
+cómo modificar los permisos de un archivo). Para manejar permisos, GNU/Linux nos
+provee de una herramienta llamada chmod. Su estructura es la siguiente:</p>
+<p>chmod [guien][+/-][permiso] [archivo]</p>
+<p>El parámetro [quien] puede contener una letra u (usuario dueño del archivo), una letra
+g (grupo) o una letra o (todos los demás). El segundo parámetro nos permite asignar un
+permiso con el carácter "+" o denegar un permiso con el carácter Por último, se definen
+los permisos en sí y el archivo al cual serán asignados. Veamos algunos ejemplos:</p>
+<p>Una de las características de los sistemas operativos UNIX es la posibilidad de que cada
+archivo tenga ciertos permisos de acceso y utilización. En realidad, esta característica
+la provee el sistema de archivos.</p>
+<p>Cada archivo de nuestro sistema de archivos (incluidos los directorios) posee ciertos
+permisos de acceso. Éstos son, básicamente, tres: Lectura (r), Escritura (w) y Ejecución
+(x). Estos permisos pueden ser aplicados al usuario dueño del archivo, al grupo de
+usuarios al cual pertenece y a todos los demás usuarios del sistema. Esto significa que
+podemos asignar permisos de ejecución al dueño de un archivo, pero podemos asignar
+permisos de sólo lectura a todos los demás usuarios.</p>
+<p><b>drwxrwxrwx</b>Sería un directorio (primer carácter con letra "d") que poseería permisos
+de lectura, de escritura y de ejecución para su dueño, para su grupo
+y para todos los demás usuarios del sistema.</p>
+<p><b>-rwx--------</b>Sería un archivo (primer carácter con símbolo "-") que sólo podría ser
+leído, modificado y ejecutado por su dueño.</p>
+<p><b>-r—r—r—</b>Sería un archivo que podría ser leído por todos los usuarios, pero no
+podría ser modificado ni ejecutado por ninguno.</p>
+<p><b>rw-rw-r-</b>Sería un archivo que podría ser leído por todos los usuarios del sistema,
+pero sólo podría ser modificado por su propietario y por su grupo.</p>
+<p>Es recomendable ejecutar un ls -l en diferentes directorios para ver otros ejemplos de
+permisos.</p>
+<p>chmod u+x documento.txt</p>
+<p>Asigna permiso de ejecución del archivo documento.txt sólo para su dueño,</p>
+<p>chmod ug+r documento.txt</p>
+<p>Asigna permisos de lectura al archivo documento.txt tanto para su dueño como para
+el grupo al que pertenece.</p>
+<p>chmod o-x script.pl</p>
+<p>Deniega la ejecución del archivo script.pl a todos los usuarios que no pertenezcan al
+grupo del usuario propietario de ese archivo.</p>
+<p>Una última aclaración: el permiso de ejecución sólo debe ser asignado a archivos binarios
+ejecutables y archivos de script (interpretados por lenguajes de programación
+como Perl). En caso de que se asigne un permiso de ejecución a un archivo que no fue
+concebido originalmente para ser ejecutado, los resultados en el comportamiento del
+sistema pueden ser inesperados.</p>
+
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_arreglos">
+        <![CDATA[
+            <div>
+		  <div>
+			 <p>Otra propiedad que poseen los archivos en el sistema GNU/Linux es que tienen propietarios.
+Esto quiere decir que cada archivo le corresponde a un usuario o a un grupo
+de usuarios.</p>
+			 <p>El sistema es muy sencillo de comprender: si creamos un archivo con cualquier aplicación
+(un documento en un editor de textos, por ejemplo), ese archivo tendrá registrado
+como dueño nuestro nombre de usuario. Si queremos que ese archivo sea propiedad
+de otro usuario, tendremos que usar el comando chown. La forma básica de este
+comando es:</p>
+			 <p>chown usuar io [archivo(s)]</p>
+			 <p>De esta forma, el nuevo propietario del archivo podrá realizar modificaciones a sus
+permisos, ya que es el nuevo dueño.</p>
+		  </div>
+	   </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_hashes">
+        <![CDATA[
+            <div>
+                <div>
+			<p>Los enlaces son accesos directos a un archivo, desde otra zona del sistema de archivos.
+Por ejemplo, si queremos crear un acceso directo al archivo /etc/passwd en el directorio
+/root, sólo tendremos que usar el siguiente comando:</p>
+			<p>ln /etc/passwd /root/mienlace</p>
+			<p>El comando ln se encargará automáticamente de crear el enlace. El primer parámetro
+indica hacia dónde apunta ese enlace, y el segundo parámetro es el nombre del
+enlace. De esta forma, cuando realicemos cualquier operación sobre /root/mienlace,
+ésta, en realidad, será efectuada en /etc/passwd. Obviamente, el enlace es sólo un
+apuntador al archivo, por lo que de ninguna manera tendrá el mismo tamaño que
+el archivo apuntado.</p>
+
+
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_fecha_hora">
+        <![CDATA[
+                <div>
+		  <div>
+			<p>Muchas veces, los programas que se ejecutan en el sistema (concurrentemente o no)
+necesitan compartir información. Una de las maneras de llevar esto a cabo es mediante
+las variables de entorno.</p>
+			<p>Definiremos variable de entorno como una posición en memoria identificada con un
+nombre y en la cual se guarda algún tipo de dato.</p>
+			<p>La definición es muy similar a la de las variables globales en la programación: son variables
+accesibles por todas las funciones. Éstas son algunas variables de entorno que
+encontrarán en la mayoría de las distribuciones de GNU/Linux:</p>
+			<p><b>DISPLAY</b>:El nombre del dispositivo en el que el servidor de ventanas X mostrará
+su salida.</p>
+			<p><b>HOME</b>:El directorio home.</p>
+			<p><b>LOGNAME</b>:El nombre utilizado en el login.</p>
+			<p><b>PATH</b>:Una cadena que contiene el listado de directorios en donde se buscarán
+los programas si no son encontrados en el directorio actual.</p>
+			<p><b>PS1</b>:Define el tipo de línea de comandos.</p>
+			<p><b>SHELL</b>:El shell estándar. En nuestro caso, SHELL=/bin/bash.</p>
+			<p><b>TERM</b>:Esta variable define el tipo de terminal que estamos utilizando.</p>
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_cuatro_rangos">
+        <![CDATA[
+            <div>
+            <div>
+<P><b>cd </b>Cambia de directorio.</P>
+<P><b> compress</b> Comprimir archivos.</P>
+<P><b> cp </b>Copiar un archivo.</P>
+<P><b>chmod </b>Cambia los permisos de un archivo o directorio</P>
+<P><b> chown</b>Cambia el propietario del archivo o directorio.</P>
+<P><b>df </b> Muestra el espacio libre en el disco.</P>
+<P><b>du </b>Muestra el espacio en el disco utilizado.</P>
+<P><b>fdformat </b> Formatea un disquete.</P>
+<P><b> fdisk</b> Utilidad para el particionamiento de unidades.</P>
+<P><b>find  </b>Encontrar un archivo.</P>
+<P><b>fsck </b>Revisión del sistema de archivos.</P>
+<P><b> gzip </b>Descomprime un archivo en formato gzip.</P>
+<P><b>ln </b> Crea un enlace simbólico.</P>
+<P><b>ls </b> Muestra el contenido de un directorio (análogo a dir).</P>
+<P><b>mkdir </b>Creación de un directorio.</P>
+<P><b>mkfs  </b>Crea un nuevo sistema de archivos.</P>
+ <P><b>mknod </b></P>
+<P><b> </b> Crea un archivo de dispositivo.</P>
+<P><b> mkswap</b> Crea un espacio de intercambio.</P>
+<P><b> mount</b> Montar una unidad/partición en el sistema de archivos.</P>
+<P><b>mv </b>Mover un archivo (se utiliza también para renombrar).</P>
+<P><b>pwd </b> Devuelve la cadena correspondiente al directorio actual.</P>
+<P><b>rm </b> Borrar un archivo.</P>
+<P><b> rmdir</b> Borrar un directorio.</P>
+<P><b>split </b></P>
+<P><b> swapoff</b> Desactivar el espacio de intercambio.</P>
+<P><b> swapon</b>Activar el espacio de intercambio.</P>
+<P><b> sync</b>Sincronizar los procesos de escritura/lectura.</P>
+ <P><b>tac </b> Da vuelta el contenido de un archivo.</P>
+<P><b>tail </b> Muestra las últimas líneas de un archivo.</P>
+<P><b> tar</b> Desempaquetar un archivo en formato tar.</P>
+ <P><b>umount </b> Desmontar un sistema de archivos ya montado.</P>
+<P><b> uniq </b>Borra las líneas duplicadas de un archivo.</P>
+<P><b>wc </b>
+ Cuenta el número de caracteres de un archivo.</P>
+
+		  </div>
+		    </div>
+        ]]>
+    </string>
+     <string name="html_cuatro_iteradores">
+        <![CDATA[
+            <div>
+                <div>
+ <p><b>bg</b> Ejecutar un proceso (interrumpido) en segundo plano.</p>
+ <p><b>fg </b>Ejecutar un proceso (interrumpido) en primer plano.</p>
+ <p><b>free</b> Muestra la memoria libre y utilizada.</p>
+ <p><b>halt</b> Apagar la máquina.</p>
+ <p><b>kill</b> Enviar una señal a un proceso.</p>
+ <p><b>Idd </b>Muestra las librerías que se necesitan para ejecutar un programa.</p>
+ <p><b>nice</b> Ejecutar un proceso con menor prioridad de ejecución.</p>
+<p><b>PS </b>Muestra todos los procesos que se están ejecutando en el sistema.</p>
+ <p><b>pstree</b> * Como el ps, pero muestra todo en forma de árbol.</p>
+<p><b>reboot</b> Reiniciar el sistema.</p>
+ <p><b>shutdown</b> Cerrar el sistema.</p>
+ <p>top<b></b> Una utilidad para monitorear procesos y el estado del sistema.</p>
+  <p><b>úname</b> Muestra información del sistema.</p>
+
+
+
+
+
+
+
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_directorios">
+        <![CDATA[
+            <div>
+                <div>
+                <p><b>adduser</b> Crear un nuevo usuario.</p>
+                 <p><b>chsh</b> Cambiar el shell de un usuario determinado.</p>
+                  <p><b>groups</b> Muestra el listado de grupos de usuarios del sistema.</p>
+                   <p><b>id</b> Muestra la información de usuario y del grupo de un determinado usuario.</p>
+                    <p><b>passwd</b> Cambiar la clave de acceso de un determinado usuario.</p>
+                     <p><b>su</b> Cambiar de usuario.</p>
+                      <p><b>users </b>Lista los usuarios conectados al sistema.</p>
+                       <p><b>who</b>Muestra información de los usuarios actualmente conectados.</p>
+
+
+
+
+
+
+
+
+		  </div>
+
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_excepciones">
+        <![CDATA[
+            <div>
+            <p><b>alias</b>Permite ejecutar comandos utilizando otros nombres (crea alias).</p>
+             <p><b>apropos</b> Encontrar las páginas de manual para un comando determinado.</p>
+              <p><b>cal</b> Muestra el calendario.</p>
+               <p><b>date</b>Permite ver y cambiar el día y la hora actuales.</p>
+                <p><b>info</b> Muestra ayuda de un determinado comando.</p>
+                 <p><b>man </b>Muestra las páginas del manual de un determinado comando.</p>
+                  <p><b>unalias</b> Borrar el alias de un comando.	</p>
+
+
+
+
+
+
+	    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_orientado_objetos">
+        <![CDATA[
+            <div>
+                <div>
+			<p>Para crear un nuevo usuario en el sistema, tenemos dos alternativas posibles. La primera
+de ellas es utilizar el método manual, el cual consiste en agregar una nueva línea
+al archivo /etc/passwd (respetando el orden de los campos), crear un directorio
+para el usuario dentro de /home, y luego asignar una clave a ese usuario con el comando
+passwd [usuario].</p>
+<p>La otra forma es usar directamente el comando adduser seguido del nombre de usuario
+que se va a crear. Esto hará todo el trabajo de forma totalmente automática. En
+algunos sistemas, adduser también asigna una clave de acceso, pero si no se la pide,
+tendrán que asignarla ustedes mismos haciendo uso del comando passwd.</p>
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_expreciones_regulares">
+        <![CDATA[
+            <div>
+                <div>
+                <p>El proceso de eliminación de un usuario no es muy común en los sistemas GNU/Linux,
+ya que nunca se sabe si el usuario puede llegar a volver. Pero si aun así lo que desean
+es eliminar ese perfil de usuario de su sistema, todo lo que deben hacer es borrar su
+entrada correspondiente en el archivo /etc/passwd, /etc/shadow (posee la misma estructura
+que el anterior) y eliminar su directorio personal de /home.</p>
+
+		        </div>
+		    </div>
+        ]]>
+    </string>
+
+
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="hello_world">Hola mundo</string>
+    <string name="menu_setting">Opciones</string>
+    <string name="title_activity_puzzle">Puzzle</string>
+    <string name="title_activity_main_menu">PuzzleGame - Menú Principal</string>
+    <string name="mainmenu_title">Juego Puzzle</string>
+    <string name="mainmenu_resume">Resumen</string>
+    <string name="mainmenu_newgame">Nuevo Juego</string>
+    <string name="title_activity_new_game_menu">NewGameMenuActivity</string>
+    <string name="newgamemenu_title">Nuevo Juego</string>
+    <string name="newgamemenu_gamesize">"Tamaño : "</string>
+    <string name="newgamemenu_image">Elegir Imagen</string>
+    <string name="newgamemenu_ok">Empezar</string>
+    <string name="newgamemenu_back">Regresar al menú</string>
+    <string name="gamesize_verysmall">Very small (2x3)</string>
+    <string-array name="gamesizes">
+        <item >Muy pequeño</item>
+        <item >Pequeño</item>
+        <item >Mediano</item>
+        <item >Largo</item>
+    </string-array>
+    <string name="newgamemenu_pickimage">Selecciona Imagen</string>
+    <string name="newgamemenu_button_pickbuiltin">Juego </string>
+    <string name="newgamemenu_button_pickfromsd">Memoria de telefono</string>
+    <string name="newgamemenu_button_shootphoto">Foto</string>
+    <string name="pausemenu_title">Pausar Juego</string>
+    <string name="pausemenu_resume">Resumen</string>
+    <string name="pausemenu_quit_to_main">Menú principal</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="reset">Reset</string>
+
+    <string name="title_activity_tes">Tic-Tac-Toe</string>
+    <string name="jugar_boton">Play 2 Players</string>
+    <string name="configurar">Settings</string>
+    <string name="acercade">About</string>
+    <string name="salir">Exit</string>
+    <string name="reiniciar">Start Over</string>
+    <string name="cruz">Win the Crosses</string>
+    <string name="juegoAcabado">EN</string>
+    <string name="circulo">Win the Circles</string>
+    <string name="jugar_boton_cpu">Play CPU</string>
+
+
+</resources>

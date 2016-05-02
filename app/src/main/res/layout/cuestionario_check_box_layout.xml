@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5pt"
+    android:paddingRight="5pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    android:layout_margin="5pt">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_pregunta_ckech_box"
+        android:text="LLL"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/chk_caja_uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_marginTop="12dp"
+        android:id="@+id/chk_caja_dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+
+
+    <CheckBox
+        android:layout_marginTop="12dp"
+        android:id="@+id/chk_caja_tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:id="@+id/btn_comprobar_check_box"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mi_boton"
+        android:text="@string/cuestionario_comprobar"/>
+
+
+</LinearLayout>

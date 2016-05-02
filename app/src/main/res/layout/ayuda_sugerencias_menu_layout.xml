@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/mi_scroll"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:paddingTop="5pt"
+        android:paddingBottom="10pt">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txv_titulo_ayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_ayuda"
+                android:textSize="15pt"
+                android:textColor="@color/negro"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txv_subtitulo_ayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_recomendaciones"
+                android:textSize="10pt"
+                android:textColor="@color/negro"
+                android:layout_marginTop="15pt"
+                />
+            <TextView
+                android:id="@+id/txv_informacion_ayuda"
+                android:layout_marginTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_recomendaciones_resp"
+                android:textSize="10pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txv_titulo_sugerencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_sugerencias"
+                android:textSize="15pt"
+                android:textColor="@color/negro"
+                android:layout_gravity="center"
+                android:layout_marginTop="20pt"/>
+
+            <TextView
+                android:id="@+id/txv_ayuda_sugerencia_para"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_sugerencias_para"
+                android:textSize="10pt"
+                android:textColor="@color/negro"
+                android:layout_marginTop="15pt"/>
+
+            <EditText
+                android:id="@+id/editTextTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:text="@string/ayuda_sugerencia_sugerencias_correo"
+                android:enabled="false"
+                >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/txv_ayuda_sugerencia_tema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_sugerencias_tema"
+                android:textSize="10pt"
+                android:textColor="@color/negro"
+                android:layout_marginTop="15pt"  />
+
+            <EditText
+                android:id="@+id/editTextSubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+            </EditText>
+
+            <TextView
+                android:id="@+id/txv_ayuda_sugerencia_mensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_sugerencia_sugerencias_mensage"
+                android:textSize="10pt"
+                android:textColor="@color/negro"
+                android:layout_marginTop="15pt" />
+
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="5"
+
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/buttonSend"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mi_boton"
+                android:text="@string/ayuda_sugerencia_sugerencias_enviar"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

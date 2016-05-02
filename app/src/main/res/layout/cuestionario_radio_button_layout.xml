@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5pt"
+    android:paddingRight="5pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    android:layout_margin="5pt">
+    <TextView
+        android:id="@+id/txv_pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RadioGroup
+        android:id="@+id/rbg_opciones"
+        android:layout_below="@id/txv_pregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbt_repuesta_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <RadioButton
+            android:id="@+id/rbt_repuesta_dos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_comprobar_res"
+        android:layout_below="@id/rbg_opciones"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mi_boton"
+        android:text="@string/cuestionario_comprobar"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5pt"
+    android:paddingRight="5pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    android:gravity="center_horizontal|center_vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Felicidades !!"
+        android:textSize="15pt"
+        android:textColor="@color/rojo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_mensaje"
+        android:textColor="@color/negro"
+        android:textSize="9pt"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_enviar_email_despues"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Después"
+            android:background="@drawable/mi_boton"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_enviar_email_haora"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Enviar"
+            android:background="@drawable/mi_boton"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.aprendelinux">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/linux"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeRuby">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SeleccionModuloActivity" />
+        <activity android:name=".SeleccionTemaActivity" />
+        <activity android:name=".FormLoginActivity" />
+        <activity android:name=".FormCreateLoginActivity" />
+        <activity android:name=".SeleccionTabActivity" />
+        <activity android:name=".UsuarioInformacionMenuActivity" />
+        <activity android:name=".CalificarAppMenuActivity" />
+        <activity android:name=".AyudaSugerenciasMenuActivity" />
+        <activity android:name=".AcercaDeMenuActivity" />
+        <activity android:name=".ConfiguracionMenuActivity" />
+        <activity android:name=".GraficaMenuActiviry" />
+        <activity android:name=".CuestionarioRadioButtonActivity" />
+        <activity android:name=".CuestionarioEditTextActivity" />
+        <activity android:name=".CuestionarioCheckBoxActivity" />
+        <activity android:name=".ExamenFinalActivity" />
+        <activity android:name=".TerminoTemaOffActivity" />
+        <activity android:name=".EjemploEmailActivity" />
+        <activity android:name=".HerramientasActivity" />
+        <activity android:name=".MenusJuegosActivity"/>
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Calculadora" />
+        <activity android:name=".Cronometro" />
+
+        <activity android:name=".Buscaminas"></activity>
+        <activity android:name=".PuzzleActivity"></activity>
+        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".gato.TresEnRaya"></activity>
+        <activity android:name=".gato.JuegoCpu"></activity>
+        <activity android:name=".gato.AcercaDe"></activity>
+
+        <activity android:name=".NoticiaActivity"></activity>
+        <activity android:name=".UltimasNoticiasActivity"></activity>
+        <activity android:name=".VideoActivity"></activity>
+
+    </application>
+
+</manifest>

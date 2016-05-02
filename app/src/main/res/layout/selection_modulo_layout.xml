@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingTop="5pt"
+    android:paddingBottom="10pt"
+    tools:context=".SeleccionTemaActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_modulo"
+        android:textSize="15pt"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lsv_menu_secundario"
+        android:textAlignment="center"
+        android:layout_below="@id/txv_modulo"
+        android:textColor="@color/negro"
+        ></ListView>
+
+</RelativeLayout>
